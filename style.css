@@ -1,0 +1,174 @@
+.container{
+    display: flex;
+    flex-direction: column;
+}
+
+.row{
+    display: flex;
+}
+
+input{
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0 !important;
+    font-family: 'Roboto', sans-serif;
+    font-weight: lighter;
+    background-color: #f3f3f3;
+}
+
+.navbar{
+    padding: 15px 10px 10px 10px;
+    background-color: white;
+}
+
+.navbar > img{
+    margin: 0 10px;
+}
+
+.navbar > .links{
+    margin-left: auto;
+    display: inline-flex;
+    align-items: center;
+}
+
+.navbar > .links > .link{
+    padding: 10px 15px;
+}
+
+.navbar > .links > .link:hover{
+    box-shadow: 0 0 3px gray;
+    cursor: pointer;
+    transition: .5s all;
+}
+
+.header{
+    flex-grow: 1;
+    padding: 50px 15px;
+    background-color: #374777;
+}
+
+.header > p{
+    text-align: center;
+    color: white;
+    font-size: 2em;
+}
+
+.main-content{
+    padding: 50px 30px;
+}
+
+.main-content > .panel{
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+}
+
+.login-panel{
+    width: 400px;
+}
+
+.info-panel{
+    width: 600px;
+}
+
+.login-desc, .other-login{
+    font-size: 0.75em;
+    margin-top: 0;
+    color: gray;
+}
+
+.azure{
+    padding: 7px 30px;
+    width: 100%;
+    background-color: white;
+    border-color: rgb(221, 221, 221);
+    border-width: 0.5px;
+    border-style: solid;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+.azure > img{
+    width: 80px;
+}
+.light-gray{
+    color: rgba(128, 128, 128, 0.205);
+}
+
+.other-login{
+    margin-top: 5px;
+    margin-bottom: 5px;
+    text-align: center;
+}
+
+.form-control{
+    display: flex;
+    flex-direction: column;
+}
+
+.form-control > input{
+    width: 380px;
+    padding: 10px 10px;
+    font-size: 1em;
+    border-color: rgb(168, 167, 167);
+    border-style: solid;
+    font-weight: lighter;
+    border-width: 0.5px;
+    border-radius: 3px;
+}
+
+.form-control > input:focus-visible{
+    outline: #4294f1c9 solid 0.5px;
+}
+
+.form-control > span{
+    font-size: 0.75em;
+    margin: 5px 0;
+    color: gray;
+}
+
+.rememberme{
+    display: flex;
+    flex-direction: row;
+    margin: 10px 0;
+    justify-content: space-between;
+    font-size: 0.8em;
+}
+
+.rememberme a{
+    text-decoration: none;
+}
+
+.submit{
+    width: 100%;
+    background-color: black;
+    color: white;
+    padding: 10px 0;
+    border-radius: 3px;
+    border: none;
+}
+
+.info-panel > p{
+    font-weight: bold;
+}
+
+.info-panel > p > a{
+    font-weight: 100;
+    text-decoration: none;
+}
+
+.info-panel > button{
+    background-color: black;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    border: none;
+}
+
+.panel:last-child{
+    border-left: 0.5px solid rgba(128, 128, 128, 0.205);
+}
+
+
